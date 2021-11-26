@@ -5,6 +5,7 @@ import Fab from "@mui/material/Fab";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router";
+//import video from './images/lingr-preview.mp4'
 
 export const Lingr = () => {
   const history = useHistory();
@@ -60,6 +61,8 @@ export const Lingr = () => {
         <p className="subhead2 project-desc">
           This project was awarded with Honors in the NuCamp full-stack bootcamp.
         </p>
+
+
         <br />
         <br />
 

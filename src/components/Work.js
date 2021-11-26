@@ -10,7 +10,12 @@ export const Work = () => {
   return (
     <div>
       <span className="header" style={{position: "fixed"}}>
-        <span className="header1" >my work</span>
+        <span className="header1" onClick={() => {
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth"
+                    })
+        }}>my work</span>
       </span>
 
       <div
@@ -21,7 +26,7 @@ export const Work = () => {
       <center>
 
 
-      <img src={Lingrlogo} style={{width: "400px", paddingBottom: 0}}
+      <img src={Lingrlogo} style={{width: "400px", paddingBottom: 0, cursor: "pointer"}}
                   onClick={() => {
                     history.push("./lingr");
                     window.scrollTo({
@@ -35,7 +40,7 @@ export const Work = () => {
       <br /><br />
 
 
-      <img src={WhatluckLogo} style={{width: "400px", paddingBottom: 0}} 
+      <img src={WhatluckLogo} style={{width: "400px", paddingBottom: 0, cursor: "pointer"}}
                         onClick={() => {
                           history.push("./whatluck");
                           window.scrollTo({
@@ -49,7 +54,7 @@ export const Work = () => {
       <br /><br />
 
 
-      <img src={GobbleblogLogo} style={{width: "200px", paddingBottom: 0}} 
+      <img src={GobbleblogLogo} style={{width: "200px", paddingBottom: 0, cursor: "pointer"}} 
                         onClick={() => {
                           history.push("./gobbleblog");
                           window.scrollTo({

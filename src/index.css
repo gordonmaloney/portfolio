@@ -95,7 +95,7 @@ body {
   text-align: center;
   color: #121D26;
   font-size: 18px;
-  margin-top: 0px
+  margin-top: 5px
 }
 
 .hr {
@@ -161,11 +161,12 @@ a {
 
 .switch-wrapper {
   position: relative;
-  padding-bottom: 400px
+  padding-bottom: 400px;
 }
 
 .switch-wrapper > div {
   position: absolute;
+  margin-left: 150px;
 }
 
 .project-desc {
