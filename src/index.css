@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Carme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.colors {
+  color: #020E26;
+  color: #EBEDF2;
+  color: #C7CFD9;
+  color: #121D26;
+}
+
+body {
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  /*max-width: 600px;*/
+}
+
+.center {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 580px) {
+  body {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bottomNav {
+  font-family: "Carme";
+  color: #121D26;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.header {
+  font-family: "Carme";
+  color: #121D26;
+  padding-bottom: 20%;
+}
+
+.header1 {
+  background-color: #EBEDF2;
+  font-weight: 800;
+  font-size: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.header2 {
+  margin-left: 65px;
+  background-color: #EBEDF2;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.subhead {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  font-family: "Lato";
+  text-align: center;
+  color: #121D26;
+  font-size: 18px;
+}
+
+.subhead2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lato";
+  text-align: center;
+  color: #121D26;
+  font-size: 18px;
+  margin-top: 0px
+}
+
+.hr {
+  width: 80%;
+  border: 1px solid #EBEDF2;
+  margin: 7% auto;
+}
+
+.menuBtns {
+  font-family: "Lato";
+  color: #121D26;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: start
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+.stack-logos {
+  font-family: "Lato";
+  color: #121D26;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: start
+}
+
+.logo-img {
+  width: 50px;
+  height: auto;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.2);
+}
+
+.screenshot {
+  padding: 10px;
+}
+
+.switch-wrapper {
+  position: relative;
+  padding-bottom: 400px
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}
+
+.project-desc {
+  max-width: 500px
+}
