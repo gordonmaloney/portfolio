@@ -38,7 +38,7 @@ export const Lingr = () => {
       <br />
 
       <center>
-        <img src={Lingrlogo} style={{ width: "400px", paddingBottom: 0 }} />
+        <img src={Lingrlogo} style={{ width: "80%", maxWidth: "400px", paddingBottom: 0 }} />
         <p className="subhead2 project-desc">
           Lingr is a microblogging site for language learners. It allows users
           to write short messages in a language they’re learning and have native

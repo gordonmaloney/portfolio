@@ -27,7 +27,7 @@ function FixedBottomNavigation() {
           boxShadow:
             "0px 100px 150px 150px white, 0px 220px 200px 200px white, 0px 1px 10px 3px black",
           position: "fixed",
-          bottom: 100,
+          bottom: window.innerWidth > 600 ? 100 : 50,
           left: window.innerWidth > 600 ? "25%" : "5%",
           right: window.innerWidth > 600 ? "25%" : "5%",
           width: window.innerWidth > 600 ? "50%" : "90%",

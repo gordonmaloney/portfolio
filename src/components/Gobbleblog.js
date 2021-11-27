@@ -40,7 +40,7 @@ export const Gobbleblog = () => {
       <center>
         <img
           src={GobbleblogLogo}
-          style={{ width: "200px", paddingBottom: 0 }}
+          style={{ width: "80%", maxWidth: "200px", paddingBottom: 0 }}
         />
         <p className="subhead2 project-desc">
         Gobbleblog is a platform for helping people remember which takeaways they’ve had and enjoyed, and which they don’t want to order from again. 

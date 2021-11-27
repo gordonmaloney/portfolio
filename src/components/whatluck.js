@@ -36,7 +36,7 @@ export const Whatluck = () => {
       <br />
 
       <center>
-        <img src={WhatluckLogo} style={{ width: "400px", paddingBottom: 0 }} />
+        <img src={WhatluckLogo} style={{ width: "80%", maxWidth: "400px", paddingBottom: 0 }} />
         <p className="subhead2 project-desc">
         whatLuck is a one-stop potluck organising app - to help friends coordinate who’s going to bring what to a potluck (or a barbeque, or a drinks night, or anywhere you’re eating and drinking).
         </p>

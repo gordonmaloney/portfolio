@@ -50,6 +50,7 @@ body {
   padding-bottom: 20%;
   white-space: nowrap;
   position: fixed;
+
 }
 
 .header1 {
@@ -59,6 +60,7 @@ body {
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
   line-height: 60px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
 }
 
 .header2 {
@@ -68,6 +70,7 @@ body {
   font-size: 30px;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.1);
 }
 
 .subhead {
