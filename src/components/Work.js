@@ -7,6 +7,7 @@ import WhatluckLogo from "./images/whatluck-logo.png";
 import { styled } from '@mui/material/styles';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 
+import GobbleblogVideo from './images/gobbleblog-vid.mp4'
 import LingrVideo from "./images/lingr-video.mp4";
 import WhatluckVideo from "./images/whatluck-preview.mp4";
 import Fade from '@mui/material/Fade';
@@ -114,6 +115,17 @@ export const Work = () => {
         <br />
         <br />
 
+        <CustomWidthTooltip
+          followCursor
+          TransitionComponent={Fade}
+          TransitionProps={{ timeout: 800 }}
+          placement="right"
+          title={
+            <video loop autoPlay width="100%" height="auto" style={{opacity: "0.95", borderRadius: "15px"}}>
+              <source src={GobbleblogVideo} type="video/mp4" />
+            </video>
+          }
+        >
         <img
           src={GobbleblogLogo}
           style={{ width: "200px", paddingBottom: 0, cursor: "pointer" }}
@@ -125,6 +137,7 @@ export const Work = () => {
             });
           }}
         />
+        </CustomWidthTooltip>
         <p className="subhead2 project-desc">
           Gobbleblog is a platform for helping people remember which takeaways
           they’ve had and enjoyed, and which they don’t want to order from

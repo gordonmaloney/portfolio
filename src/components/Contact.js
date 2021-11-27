@@ -21,9 +21,9 @@ export const Contact = () => {
           <br /><br />
           or follow me on:
           <br />
-              github<br />
-              twitter<br />
-              instagram
+              <a target="_blank" href="https://github.com/gordonmaloney"><u>github</u></a><br />
+              <a target="_blank" href="https://twitter.com/istreasatuatha"><u>twitter</u></a><br />
+              <a target="_blank" href="https://www.instagram.com/gordonmaloney/"><u>instagram</u></a>
           
         </p>
       </center>

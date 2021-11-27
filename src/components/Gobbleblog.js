@@ -5,6 +5,8 @@ import Fab from "@mui/material/Fab";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router";
+import GobbleblogVideo from './images/gobbleblog-vid.mp4'
+
 
 export const Gobbleblog = () => {
   const history = useHistory();
@@ -57,6 +59,15 @@ export const Gobbleblog = () => {
           <a href="https://github.com/gordonmaloney/gobbleblog-mern" target="_blank"> <u>here</u>.</a>
         </p>
 
+        <video
+                loop
+                autoPlay
+                width="50%"
+                height="auto"
+                style={{ borderRadius: "15px" }}
+              >
+                <source src={GobbleblogVideo} type="video/mp4" />
+              </video>
         <br />
         <br />
 
