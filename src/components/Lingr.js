@@ -45,15 +45,15 @@ export const Lingr = () => {
           speakers correct them or interact with them.
         </p>
 
-        <Container style={{ width: "90%" }}>
+        <Container style={{ width: "90%", paddingLeft: 0, marginLeft: 0, paddingRight: 0, marginRight: 0}}>
           <Row className="align-items-center">
             <Col xs="12" sm="6">
               <video
                 loop
                 autoPlay
-                width="100%"
+                width="130%"
                 height="auto"
-                style={{ borderRadius: "15px" }}
+                style={{ borderRadius: "15px", marginLeft: "-15%" }}
               >
                 <source src={LingrVideo} type="video/mp4" />
               </video>

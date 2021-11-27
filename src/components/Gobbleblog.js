@@ -5,8 +5,7 @@ import Fab from "@mui/material/Fab";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router";
-import GobbleblogVideo from './images/gobbleblog-vid.mp4'
-
+import GobbleblogVideo from "./images/gobbleblog-vid.mp4";
 
 export const Gobbleblog = () => {
   const history = useHistory();
@@ -43,31 +42,43 @@ export const Gobbleblog = () => {
           style={{ width: "80%", maxWidth: "200px", paddingBottom: 0 }}
         />
         <p className="subhead2 project-desc">
-        Gobbleblog is a platform for helping people remember which takeaways they’ve had and enjoyed, and which they don’t want to order from again. 
+          Gobbleblog is a platform for helping people remember which takeaways
+          they’ve had and enjoyed, and which they don’t want to order from
+          again.
         </p>
-        
 
         <p className="subhead2 project-desc">
-        It has text-to-speech and OCR image-to-text functionality, including using web sockets to allow desktop users to upload an image from their mobile.        </p>
+          It has text-to-speech and OCR image-to-text functionality, including
+          using web sockets to allow desktop users to upload an image from their
+          mobile.{" "}
+        </p>
 
         <p className="subhead2 project-desc">
-          It’s live 
-          <a href="https://gobbleblog.netlify.app/" target="_blank"> <u>here</u>.</a>
-
-           <br />
-          And on GitHub 
-          <a href="https://github.com/gordonmaloney/gobbleblog-mern" target="_blank"> <u>here</u>.</a>
+          It’s live
+          <a href="https://gobbleblog.netlify.app/" target="_blank">
+            {" "}
+            <u>here</u>.
+          </a>
+          <br />
+          And on GitHub
+          <a
+            href="https://github.com/gordonmaloney/gobbleblog-mern"
+            target="_blank"
+          >
+            {" "}
+            <u>here</u>.
+          </a>
         </p>
 
         <video
-                loop
-                autoPlay
-                width="50%"
-                height="auto"
-                style={{ borderRadius: "15px" }}
-              >
-                <source src={GobbleblogVideo} type="video/mp4" />
-              </video>
+          loop
+          autoPlay
+          width={window.innerWidth > 600 ? '50%' : '100%'}
+          height="auto"
+          style={{ borderRadius: "15px" }}
+        >
+          <source src={GobbleblogVideo} type="video/mp4" />
+        </video>
         <br />
         <br />
 
