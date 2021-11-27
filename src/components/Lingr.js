@@ -5,7 +5,8 @@ import Fab from "@mui/material/Fab";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router";
-//import video from './images/lingr-preview.mp4'
+import LingrVideo from "./images/lingr-video.mp4";
+import { Container, Col, Row } from "reactstrap";
 
 export const Lingr = () => {
   const history = useHistory();
@@ -23,7 +24,7 @@ export const Lingr = () => {
             });
           }}
         >
-            <ArrowBackIosIcon sx={{marginLeft: "10px"}}/>
+          <ArrowBackIosIcon sx={{ marginLeft: "10px" }} />
         </Fab>
       </span>
 
@@ -43,26 +44,49 @@ export const Lingr = () => {
           to write short messages in a language they’re learning and have native
           speakers correct them or interact with them.
         </p>
-        
 
-        <p className="subhead2 project-desc">
-        It is built using the MERN stack, with JWT authentication.
-        </p>
+        <Container style={{ width: "90%" }}>
+          <Row className="align-items-center">
+            <Col>
+              <video
+                loop
+                autoPlay
+                width="100%"
+                height="auto"
+                style={{ borderRadius: "15px" }}
+              >
+                <source src={LingrVideo} type="video/mp4" />
+              </video>
+            </Col>
+            <Col>
+              <p className="subhead2 project-desc">
+                It is built using the MERN stack, with JWT authentication.
+              </p>
 
-        <p className="subhead2 project-desc">
-          It’s live 
-          <a href="https://lingr.netlify.app/" target="_blank"> <u>here</u>.</a>
+              <p className="subhead2 project-desc">
+                It’s live
+                <a href="https://lingr.netlify.app/" target="_blank">
+                  {" "}
+                  <u>here</u>.
+                </a>
+                <br />
+                And on GitHub
+                <a
+                  href="https://github.com/gordonmaloney/lingr-mern"
+                  target="_blank"
+                >
+                  {" "}
+                  <u>here</u>.
+                </a>
+              </p>
 
-           <br />
-          And on GitHub 
-          <a href="https://github.com/gordonmaloney/lingr-mern" target="_blank"> <u>here</u>.</a>
-        </p>
-
-        <p className="subhead2 project-desc">
-          This project was awarded with Honors in the NuCamp full-stack bootcamp.
-        </p>
-
-
+              <p className="subhead2 project-desc">
+                This project was awarded with Honors in the NuCamp full-stack
+                bootcamp.
+              </p>
+            </Col>
+          </Row>
+        </Container>
         <br />
         <br />
 

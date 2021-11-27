@@ -45,7 +45,7 @@ export const Whatluck = () => {
 
 
         <Container style={{width: "90%"}}>
-<Row>
+<Row className="align-items-center">
     <Col>
 
     <p className="subhead2 project-desc">
@@ -67,7 +67,7 @@ export const Whatluck = () => {
     </Col>
 
     <Col> 
-<video loop autoPlay width="100%" height="auto">
+<video loop autoPlay width="100%" height="auto" style={{borderRadius: "15px"}}>
        <source src={video} type="video/mp4" />
 </video>
 </Col>
