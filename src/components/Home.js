@@ -9,10 +9,14 @@ import Draggable from "react-draggable";
 export const Home = () => {
   return (
     <>
-      <span className="header" style={{ position: "fixed" }}>
+      <span className="header headerHome">
+        
+      <div className="shrinker">
         <span className="header1">Gordon Maloney</span>
         <br />
         <span className="header2">full-stack web developer</span>
+        </div>
+
       </span>
 
       <div

@@ -3,8 +3,11 @@ import React from "react";
 export const Contact = () => {
   return (
     <div>
-      <span className="header" style={{position: "fixed"}}>
+      <span className="header headerContact">
+      <div className="shrinker">
+
         <span className="header1">get in touch</span>
+        </div>
       </span>
 
       <div
@@ -16,7 +19,7 @@ export const Contact = () => {
         <p className="subhead">
           you can get in touch with me {" "}
             <a href="mailto:gordonmaloney@gmail.com" target="_blank">
-            over email
+            <u>over email</u>
           </a>
           <br /><br />
           or follow me on:

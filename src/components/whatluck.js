@@ -46,8 +46,7 @@ export const Whatluck = () => {
 
         <Container style={{width: "90%"}}>
 <Row className="align-items-center">
-    <Col>
-
+<Col xs="12" sm="6">
     <p className="subhead2 project-desc">
         The front-end uses React, Redux, Bootstrap, Material UI and Axios, the back-end uses MongoDB, Express and Node.js. There is also an app version built with React Native.
         </p>
@@ -66,7 +65,7 @@ export const Whatluck = () => {
         </p>
     </Col>
 
-    <Col> 
+    <Col xs="12" sm="6">
 <video loop autoPlay width="100%" height="auto" style={{borderRadius: "15px"}}>
        <source src={video} type="video/mp4" />
 </video>

@@ -47,7 +47,7 @@ export const Lingr = () => {
 
         <Container style={{ width: "90%" }}>
           <Row className="align-items-center">
-            <Col>
+            <Col xs="12" sm="6">
               <video
                 loop
                 autoPlay
@@ -58,7 +58,7 @@ export const Lingr = () => {
                 <source src={LingrVideo} type="video/mp4" />
               </video>
             </Col>
-            <Col>
+            <Col xs="12" sm="6">
               <p className="subhead2 project-desc">
                 It is built using the MERN stack, with JWT authentication.
               </p>

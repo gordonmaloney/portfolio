@@ -28,7 +28,9 @@ export const Work = () => {
 
   return (
     <div>
-      <span className="header" style={{ position: "fixed" }}>
+      <span className="header headerWork">
+      <div className="shrinker">
+
         <span
           className="header1"
           onClick={() => {
@@ -40,6 +42,7 @@ export const Work = () => {
         >
           my work
         </span>
+        </div>
       </span>
 
       <div
@@ -65,7 +68,7 @@ export const Work = () => {
         >
         <img
           src={Lingrlogo}
-          style={{ width: "400px", paddingBottom: 0, cursor: "pointer" }}
+          style={{ width: "80%", maxWidth: "400px", paddingBottom: 0, cursor: "pointer" }}
           onClick={() => {
             history.push("./lingr");
             window.scrollTo({
@@ -96,7 +99,7 @@ export const Work = () => {
         >
           <img
             src={WhatluckLogo}
-            style={{ width: "400px", paddingBottom: 0, cursor: "pointer" }}
+            style={{ width: "80%", maxWidth: "400px", paddingBottom: 0, cursor: "pointer" }}
             onClick={() => {
               history.push("./whatluck");
               window.scrollTo({
@@ -128,7 +131,7 @@ export const Work = () => {
         >
         <img
           src={GobbleblogLogo}
-          style={{ width: "200px", paddingBottom: 0, cursor: "pointer" }}
+          style={{ width: "80%", maxWidth: "200px", paddingBottom: 0, cursor: "pointer" }}
           onClick={() => {
             history.push("./gobbleblog");
             window.scrollTo({
