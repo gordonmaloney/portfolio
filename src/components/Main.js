@@ -37,7 +37,6 @@ function FixedBottomNavigation() {
         elevation={3}
       >
         <BottomNavigation
-          sx={{ borderRadius: "50px" }}
           showLabels
           value={value}
           onChange={(event, newValue) => {
